@@ -10,7 +10,7 @@ function App() {
     if (e.key === "Enter") {
       e.preventDefault();
 
-      if (count > 19 || count === "Experiment finished. Please reload") {
+      if (count > 39 || count === "Experiment finished. Please reload") {
         setCount("Experiment finished. Please reload")
       }else {
         setCount(count + 1)
